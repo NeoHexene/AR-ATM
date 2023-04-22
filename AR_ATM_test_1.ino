@@ -137,7 +137,7 @@ void loop(){
 
 void dispatchMoney() {
     Serial.println("Dispatching money...");
-    amount = amount - 10;
+    amount = amount - 50;
     Serial.print("Balance: ");
     Serial.println(amount);
     myservo.write(90); //rotates the motor counterclockwise at slow speed
